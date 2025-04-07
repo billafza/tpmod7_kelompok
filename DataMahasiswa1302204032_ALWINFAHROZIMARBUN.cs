@@ -35,7 +35,7 @@ namespace tpmodul7_kelompok
 		{
 			try
 			{
-				string jsonPath = "tp7_3_1302204032.json";
+				string jsonPath = "tp7_1_1302204032.json";
 				string jsonString = File.ReadAllText(jsonPath);
 
 				Mahasiswa mhs = JsonSerializer.Deserialize<Mahasiswa>(jsonString);
