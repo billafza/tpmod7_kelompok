@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 
 namespace tpmodul7_kelompok
 {
-	class DataMahasiswa103022300062_NASHBILLANURFAZZA
+	class DataMahasiswa1302204032_ALWINFAHROZIMARBUN
 	{
 		public class Nama
 		{
