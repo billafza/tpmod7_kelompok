@@ -1,0 +1,36 @@
+{
+	"courses": [
+		{
+			"code": "CRI2C4",
+			"name": "Konstruksi Perangkat Lunak"
+		},
+		{
+			"code": "SE-46-01",
+			"name": "Bahasa Inggris: Writing and Speaking"
+		},
+		{
+			"code": "SE-46-02",
+			"name": "Manajemen Konfigurasi dan Evolusi Perangkat Lunak"
+		},
+		{
+			"code": "SE-46-02",
+			"name": "Pengujian Perangkat Lunak"
+		},
+		{
+			"code": "SE-45-GAB",
+			"name": "Rekayasa Perangkat Lunak untuk Sistem Cerdas"
+		},
+		{
+			"code": "SE-48-01",
+			"name": "Statistika"
+		},
+		{
+			"code": "SE-46-04",
+			"name": "Tata Tulis Ilmiah"
+		},
+		{
+			"code": "SE-45-GAB",
+			"name": "Tugas Akhir"
+		}
+	]
+}

@@ -5,10 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        DataMahasiswa103022300062_NASHBILLANURFAZZA data = new DataMahasiswa103022300062_NASHBILLANURFAZZA();
+        DataMahasiswa1302204032_ALWINFAHROZIMARBUN data = new DataMahasiswa1302204032_ALWINFAHROZIMARBUN();
         data.ReadJSON();
 
-        KuliahMahasiswa103022300062_NASHBILLANURFAZZA kuliah = new KuliahMahasiswa103022300062_NASHBILLANURFAZZA();
+        KuliahMahasiswa1302204032_ALWINFAHROZIMARBUN kuliah = new KuliahMahasiswa1302204032_ALWINFAHROZIMARBUN();
         kuliah.ReadJSON();
     }
 }

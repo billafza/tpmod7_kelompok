@@ -18,7 +18,7 @@ namespace tpmod7_kelompok
         public List<Course> courses { get; set; }
     }
 
-    public class KuliahMahasiswa103022300062_NASHBILLANURFAZZA
+    public class KuliahMahasiswa1302204032_ALWINFAHROZIMARBUN
     {
         
 
@@ -26,7 +26,7 @@ namespace tpmod7_kelompok
         {
             try
             {
-                string jsonPath = "C:\\NASHBILLA NURFAZZA\\PRAKTIKUM KONSTRUKSI PL\\tpmod7_kelompok\\tp7_2_103022300062.json";
+                string jsonPath = "tp7_2_1302204032.json";
                 string jsonString = File.ReadAllText(jsonPath);
                 CourseList courseList = JsonSerializer.Deserialize<CourseList>(jsonString);
 
