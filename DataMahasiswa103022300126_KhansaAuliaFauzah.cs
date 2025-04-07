@@ -34,8 +34,10 @@ namespace tpmodul7_kelompok
         {
             try
             {
-                string jsonPath = "C:\\KhansaAulia\\tpmod7_kelompok\\tp7_1_103022300126.json";
+                string jsonPath = "tp7_1_103022300126.json";
                 string jsonString = File.ReadAllText(jsonPath);
+                CoursesList data = JsonSerializer.Deserialize<CoursesList>(json);
+
 
                 Mahasiswa mhs = JsonSerializer.Deserialize<Mahasiswa>(jsonString);
                 Console.WriteLine($"Nama {mhs.nama.depan} {mhs.nama.belakang} dengan nim {mhs.nim} dari fakultas {mhs.fakultas}");
@@ -44,6 +46,11 @@ namespace tpmodul7_kelompok
             {
                 Console.WriteLine("Error: " + ex.Message);
             }
+        }
+        static void Main(string[] args)
+        {
+            DataMahasiswa103022300126_KhansaAuliaFauzah dataMahasiswa = new DataMahasiswa103022300126_KhansaAuliaFauzah();
+            dataMahasiswa.ReadJSON();
         }
     }
 }
